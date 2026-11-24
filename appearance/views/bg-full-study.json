@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "bg-full-study",
+  "name": "BG Full Study",
+  "description": "A quiet, readable study column",
+  "aspectRatio": "auto",
+  "layout": { "regionWeights": { "main": 1 } },
+  "blocks": [
+    { "id": "header", "type": "header_banner", "region": "top", "order": 0, "visible": true, "scale": 1 },
+    { "id": "sanskrit", "type": "sanskrit", "region": "main", "order": 1, "visible": true, "scale": 1 },
+    { "id": "transliteration", "type": "transliteration", "region": "main", "order": 2, "visible": true, "scale": 1 },
+    { "id": "shabdartha", "type": "shabdartha", "region": "main", "order": 3, "visible": true, "scale": 1 },
+    { "id": "translation", "type": "translation", "region": "main", "order": 4, "visible": true, "scale": 1 },
+    { "id": "purport", "type": "purport", "region": "main", "order": 5, "visible": true, "scale": 1 },
+    { "id": "footer", "type": "footer_banner", "region": "bottom", "order": 6, "visible": true, "scale": 1 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bg-stage-slide",
+  "name": "BG Stage Slide",
+  "description": "16:9 live-class presentation layout",
+  "aspectRatio": "16:9",
+  "layout": { "regionWeights": { "left": 0.82, "main": 1.8, "right": 0.82 } },
+  "blocks": [
+    { "id": "header", "type": "header_banner", "region": "top", "order": 0, "visible": true, "scale": 1 },
+    { "id": "artwork", "type": "artwork", "region": "left", "order": 1, "visible": true, "scale": 1 },
+    { "id": "sanskrit", "type": "sanskrit", "region": "main", "order": 2, "visible": true, "scale": 1.2 },
+    { "id": "transliteration", "type": "transliteration", "region": "main", "order": 3, "visible": false, "scale": 1 },
+    { "id": "shabdartha", "type": "shabdartha", "region": "main", "order": 4, "visible": true, "scale": 0.95 },
+    { "id": "translation", "type": "translation", "region": "main", "order": 5, "visible": true, "scale": 1.08 },
+    { "id": "purport", "type": "purport", "region": "main", "order": 6, "visible": false, "scale": 1 },
+    { "id": "footer", "type": "footer_banner", "region": "bottom", "order": 7, "visible": true, "scale": 1 }
+  ]
+}

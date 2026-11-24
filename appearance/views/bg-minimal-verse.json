@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "bg-minimal-verse",
+  "name": "BG Minimal Verse",
+  "description": "A centered Sanskrit and translation view",
+  "aspectRatio": "auto",
+  "layout": { "regionWeights": { "main": 1 } },
+  "blocks": [
+    { "id": "sanskrit", "type": "sanskrit", "region": "main", "order": 0, "visible": true, "scale": 1.2 },
+    { "id": "translation", "type": "translation", "region": "main", "order": 1, "visible": true, "scale": 1 }
+  ]
+}
